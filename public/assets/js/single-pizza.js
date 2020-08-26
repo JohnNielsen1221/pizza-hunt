@@ -120,7 +120,7 @@ function handleNewCommentSubmit(event) {
   })
   .then(response => {
     if (!response.ok) {
-      throw new Error('Somthing went wrong!');
+      throw new Error('Something went wrong!');
     }
     response.json();
   })
